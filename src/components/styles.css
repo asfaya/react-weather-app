@@ -1,7 +1,11 @@
+.locationsList {
+    height: 85vh;
+    overflow: auto;
+}
+
 @media(max-width: 64em) {
     .locationsList {
-        max-height: 30vh;
-        overflow: auto;
+        max-height: 40vh;
         margin-bottom: 20px;
     }
 }
