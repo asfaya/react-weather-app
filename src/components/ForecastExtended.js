@@ -36,12 +36,12 @@ class ForecastExtended extends Component {
         this.updateCity(city);   
     }
 
-    componentWillReceiveProps(nextProps) {
+    componentDidUpdate(prevProps) {
         const { city } = this.props;
 
-        if (nextProps.city !== city) {
+        if (prevProps.city !== city) {
             this.setState({ forecastData: null });
-            this.updateCity(nextProps.city);
+            this.updateCity(city);
         }
     }
 
