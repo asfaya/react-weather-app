@@ -6,21 +6,6 @@ import transformForecast from './../services/transformForecast';
 
 import './styles.css';
 
-// const days = [
-//     'Lunes',
-//     'Martes',
-//     'Mièrcoles',
-//     'Jueves',
-//     'Viernes',
-// ];
-
-// const data = {
-//     temperature: '10',
-//     humidity: 10,
-//     weatherState: 'normal',
-//     wind: '10'
-// };
-
 class ForecastExtended extends Component {
 
     constructor() {
